@@ -1,0 +1,31 @@
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;/*espaçamento 20 pra cima e pra baixo e o esq. dir.*/
+    
+}
+
+.caixa{
+    position: relative;
+    width: 940px;   /*largura fixa. Deixa a div em uma largura padrão*/
+    margin: auto;   /*margem que se ajusta de acordo com o navegador dir. esq.*/
+}
+
+nav{
+    position: absolute;  /*muda o ponto de referência do objeto*/
+    /*top: 0;leva o conteúdo pro topo da página*/
+    right: 0;   /*leva o conteúdo para a direita da página*/
+    top: 110px;
+}
+
+nav li{
+    display: inline;    /*deixa a lista em linha*/
+    margin: 0 0 0 15px; /*espaçamento entre os conteúdos da lista m linha.*/
+}
+
+nav a{
+    text-transform: uppercase;  /*transforma o texto em     maiúscula*/
+    color: #000000;
+    font-weight: bold;  /*negrito*/
+    font-size: 22px;    /*tamanho da fonte*/
+    text-decoration: none;  /*retira sublinhado do link*/
+}
